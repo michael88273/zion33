@@ -18,14 +18,6 @@ const Index = () => {
   useEffect(() => {
     document.title = 'Zion Smith | Senior AI Python Full Stack Engineer';
 
-    const metaDescription = document.querySelector('meta[name="description"]');
-    if (metaDescription) {
-      metaDescription.setAttribute('content',
-        'Portfolio of Dinesh Barri - Data Analyst, Data Scientist, and Codeforces Master based in Dublin, Ireland. Expertise in Python, SQL, Machine Learning, Tableau, Power BI, and competitive programming.'
-      );
-    }
-  }, []);
-
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
