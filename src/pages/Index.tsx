@@ -15,9 +15,6 @@ import { ChevronRight } from 'lucide-react';
 const Index = () => {
   const [showAllCertifications, setShowAllCertifications] = useState(false);
 
-  useEffect(() => {
-    document.title = 'Zion Smith | Senior AI Python Full Stack Engineer';
-
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
